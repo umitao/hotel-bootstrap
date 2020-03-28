@@ -1,11 +1,12 @@
 .navbar-brand {
     position: relative;
     background: url(logo2.png);
-    width: 170px;
-    height: 20px;
-    background-size: cover;
+    width: 250px;
+    height: 50px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 0;
 }
 
 .btn {
