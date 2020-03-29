@@ -1,8 +1,8 @@
 .navbar-brand {
     position: relative;
-    background: url(logo2.png);
-    width: 250px;
-    height: 50px;
+    background: url(img/logo2.png);
+    width: 300px;
+    height: 40px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,9 +10,15 @@
 }
 
 .jumbotron {
-    background-image: url(hero.jpg);
+    background-image: url(img/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
 }
+
+body {
+    margin-top: 55px;
+}
+
+@media screen and (max-width: 780px) {}
